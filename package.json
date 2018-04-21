@@ -2,7 +2,7 @@
   "name": "Liri_Node_App",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "liri.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/TonyScott44/Liri_Node_App/issues"
   },
-  "homepage": "https://github.com/TonyScott44/Liri_Node_App#readme"
+  "homepage": "https://github.com/TonyScott44/Liri_Node_App#readme",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.85.0",
+    "twitter": "^1.7.1"
+  }
 }
